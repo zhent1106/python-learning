@@ -10,7 +10,7 @@ import json
 def crawl():
     url = "https://www.zhihu.com/api/v4/columns/EC2017/followers"
     # 查询参数
-    params = {"limit": 20,
+    params = {"limit": 2000,
               "offset": 0,
               "include": "data[*].follower_count, gender, is_followed"
               }
