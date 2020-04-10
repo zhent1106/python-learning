@@ -19,7 +19,7 @@ items = ['Java', 'C', 'Python', 'C++', 'JavaScript', 'C#', 'PHP', 'SQL']
 data_list1 = [188, 166, 110, 108, 90, 80, 55, 45]
 data_list2 = [190, 160, 140, 100, 80, 70, 50, 40]
 bar1 = (
-    Bar(init_opts=opts.InitOpts(theme=ThemeType.CHALK))
+    Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
     .add_xaxis(items)
     .add_yaxis('2020年', data_list1)
     .add_yaxis('2019年', data_list2)
@@ -33,7 +33,7 @@ data_list1 = [432438, 152446, 139887, 108202,
               83264, 82048, 67286, 60733, 38226, 24983]
 data_list2 = [14808, 15238, 17669, 2107, 3344, 10328, 4110, 7097, 812, 2523]
 bar2 = (
-    Bar(init_opts=opts.InitOpts(theme=ThemeType.CHALK))
+    Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
     .add_xaxis(items)
     .add_yaxis('累计确诊', data_list1)
     .add_yaxis('累计死亡', data_list2)
