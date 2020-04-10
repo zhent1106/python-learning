@@ -25,7 +25,7 @@ def main():
     try:
         # 将字典对象序列化到文件
         with open('./res/zhent.json', 'w', encoding='utf-8') as fs:
-            json.dump(mydict, fs)
+            json.dump(mydict, fs, ensure_ascii=False)
     except IOError as e:
         print(e)
     print('保存数据完成!')
