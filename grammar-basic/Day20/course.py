@@ -30,4 +30,3 @@ def crawl():
 if __name__ == '__main__':
     list = crawl()
     print(len(list))
-    # print(list)
