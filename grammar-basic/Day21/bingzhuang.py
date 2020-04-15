@@ -1,6 +1,5 @@
 """
 pyecharts绘制柱状图示例
-@Date 2020.04.11
 """
 import pyecharts.options as opts
 from pyecharts.charts import Pie
