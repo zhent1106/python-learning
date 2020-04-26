@@ -92,5 +92,4 @@ w, h = sImg.size
 width = int(w / 2)
 height = int(h / 2)
 dImg = sImg.resize((width, height), Image.ANTIALIAS)
-dImg.save(new_img)
 dImg.save(compress_img)
