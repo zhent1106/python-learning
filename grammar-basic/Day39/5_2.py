@@ -50,7 +50,6 @@ def str_high_frequency():
     # find 用于返回匹配字符串的起始位置索引
     print('i love python'.find('python'))
 
-    # 正则
     # 密码安全要求：6 到 12位，包含英语字母和数字
     # 方法：\da-zA-Z 满足“密码只包含英文字母和数字”
     # \d 匹配数字 0-9
@@ -66,6 +65,8 @@ def str_high_frequency():
 """
 使用 @property 装饰类属性
 """
+
+
 class Book(object):
     def __init__(self, name, sale):
         self.__name = name
@@ -74,6 +75,7 @@ class Book(object):
     @property
     def name(self):
         return self.__name
+
 
 a_book = Book('magic_book', 100000)
 print(a_book.name)
