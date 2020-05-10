@@ -1,11 +1,8 @@
 """
 时间处理
-@Date 2020.05.09
 """
 from datetime import date, datetime, time, timedelta
 import re
-
-
 def date_time_demo():
     today = date.today()
     print(today)  # 2020-05-09
@@ -19,10 +16,7 @@ def date_time_demo():
     print(str_time)  # 2020-05-09 22:11:10
     str_to_time = datetime.strptime('2020-02-22 15:12:33', '%Y-%m-%d %H:%M:%S')
     print(str_to_time)  # 2020-02-22 15:12:33
-
 # 生日还有多久
-
-
 def get_days_friend(birthday):
     # 正则分割生日字符串
     splits = re.split(r'[-.\s+/]', birthday)
@@ -38,8 +32,6 @@ def get_days_friend(birthday):
     # 计算差值
     delta = birthday.date() - today
     return delta.days
-
-
 if __name__ == "__main__":
     date_time_demo()
     print('朋友生日还有', get_days_friend('2020-09-10'), '天')
