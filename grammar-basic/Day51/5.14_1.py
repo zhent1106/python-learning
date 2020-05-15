@@ -1,5 +1,5 @@
 """
-多线程售票 
+ 
 """
 import os
 import threading
