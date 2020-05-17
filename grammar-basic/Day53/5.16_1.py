@@ -1,7 +1,6 @@
 """
 使用ThreadPoolExecutor向线程池进行任务提交者更
 方便的从被调用函数中获取返回值
-@Date 2020.05.16
 """
 
 from concurrent.futures import ThreadPoolExecutor
