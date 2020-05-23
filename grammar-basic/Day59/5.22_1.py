@@ -12,15 +12,11 @@ b = list(filter(lambda x: x > 10, a))
 print(b)
 
 # 列表内元素可重复出现，如何删除列表中的某个元素
-
-
 def del_item(lst, e):
     for i in lst:
         if i == e:
             lst.remove(i)
     return lst
-
-
 s = del_item([1, 3, 5, 3, 2], 3)
 print(s)
 
@@ -37,8 +33,6 @@ def del_item2(lst, e):
         else:
             i += 1
     return lst
-
-
 # 再次强调看结果
 s = del_item2([1, 3, 3, 3, 5], 3)
 print(s)
