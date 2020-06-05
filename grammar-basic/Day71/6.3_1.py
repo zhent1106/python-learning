@@ -101,7 +101,7 @@ grid = (
     .add(bar, grid_opts=opts.GridOpts(pos_left="30%"))
 )
 grid.render(path='./res/html/movie1.html')
-# day73
+
 c = (
     Pie()
     .add(
